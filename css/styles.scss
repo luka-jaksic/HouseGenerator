@@ -86,6 +86,12 @@ body{
     @media (max-width: 1250px) {
         font-size: 0.85em;
     }
+    @keyframes appear2{
+        from{color:#141414;}
+        to{color:#FFF;}
+    }
+    animation-name: appear2;
+    animation-duration:1s;
     span{
         font-size: 1.5em;
         background: -webkit-linear-gradient(#C6E04C, #2C7E47);
@@ -104,6 +110,14 @@ body{
     @media (max-width: 1250px) {
         font-size: 0.85em;
     }
+    @keyframes roomAppear{
+        0% {color:#181818;left:100%;}
+        50% {color:#191919;}
+        100%{color:#FFF;left:0px;}
+    }
+    position:relative;
+    animation-name: roomAppear;
+    animation-duration:2s;
     span{
         font-size: 1.5em;
         background: -webkit-linear-gradient(#C6E04C, #2C7E47);

@@ -126,11 +126,33 @@ body {
   text-align: center;
   font-size: 1.25em;
   margin: 0px;
+  -webkit-animation-name: appear2;
+          animation-name: appear2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 @media (max-width: 1250px) {
   .headerSection {
     font-size: 0.85em;
+  }
+}
+
+@-webkit-keyframes appear2 {
+  from {
+    color: #141414;
+  }
+  to {
+    color: #FFF;
+  }
+}
+
+@keyframes appear2 {
+  from {
+    color: #141414;
+  }
+  to {
+    color: #FFF;
   }
 }
 
@@ -149,11 +171,44 @@ body {
   border-bottom: solid 2px #FFF;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative;
+  -webkit-animation-name: roomAppear;
+          animation-name: roomAppear;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 @media (max-width: 1250px) {
   .headerRoom {
     font-size: 0.85em;
+  }
+}
+
+@-webkit-keyframes roomAppear {
+  0% {
+    color: #181818;
+    left: 100%;
+  }
+  50% {
+    color: #191919;
+  }
+  100% {
+    color: #FFF;
+    left: 0px;
+  }
+}
+
+@keyframes roomAppear {
+  0% {
+    color: #181818;
+    left: 100%;
+  }
+  50% {
+    color: #191919;
+  }
+  100% {
+    color: #FFF;
+    left: 0px;
   }
 }
 
