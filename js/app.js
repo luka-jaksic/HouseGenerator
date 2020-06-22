@@ -22,7 +22,7 @@ function getNewHouse(numOfBedrooms, numOfBathrooms, numOfKitchens,diningRoomBool
         for(i = 0;i<numOfBedrooms;i++){
             innerHtmlAllRooms = innerHtmlAllRooms.concat("<h4 class='headerRoom'>Bedroom #",(i+1).toString(),": ",generatePack(),"</h4>");
         }
-        innerHtmlAllRooms = innerHtmlAllRooms.concat("<h2 class='headerSection'><span>&#x2666; </span> Number of Bathrooms: ",numOfBedrooms.toString(),"</h2>");
+        innerHtmlAllRooms = innerHtmlAllRooms.concat("<h2 class='headerSection'><span>&#x2666; </span> Number of Bathrooms: ",numOfBathrooms.toString(),"</h2>");
         for(i = 0;i<numOfBathrooms;i++){
             innerHtmlAllRooms = innerHtmlAllRooms.concat("<h4 class='headerRoom'> Bathroom #",(i+1).toString(),": ",generatePack(),"</h4>");
         }
@@ -48,7 +48,7 @@ function getNewHouse(numOfBedrooms, numOfBathrooms, numOfKitchens,diningRoomBool
         for(i = 0;i<numOfBedrooms;i++){
             innerHtmlAllRooms = innerHtmlAllRooms.concat("<h4 class='headerRoom'>Bedroom #",(i+1).toString(),": ",generateColor(),"</h4>");
         }
-        innerHtmlAllRooms = innerHtmlAllRooms.concat("<h2 class='headerSection'><span>&#x2666; </span> Number of Bathrooms: ",numOfBedrooms.toString(),"</h2>");
+        innerHtmlAllRooms = innerHtmlAllRooms.concat("<h2 class='headerSection'><span>&#x2666; </span> Number of Bathrooms: ",numOfBathrooms.toString(),"</h2>");
         for(i = 0;i<numOfBathrooms;i++){
             innerHtmlAllRooms = innerHtmlAllRooms.concat("<h4 class='headerRoom'> Bathroom #",(i+1).toString(),": ",generateColor(),"</h4>");
         }
