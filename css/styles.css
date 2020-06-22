@@ -22,6 +22,12 @@ body {
   font-size: 2em;
 }
 
+@media (max-width: 1250px) {
+  #headerH1 {
+    font-size: 1.5em;
+  }
+}
+
 #headerH1 span {
   font-size: 1.5em;
   background: -webkit-linear-gradient(#C6E04C, #2C7E47);
@@ -97,6 +103,12 @@ body {
   color: #AAA;
 }
 
+@media (max-width: 1250px) {
+  #copyrightDiv {
+    font-size: 0.75em;
+  }
+}
+
 .headerSection {
   color: #FFF;
   font-family: 'Raleway', sans-serif;
@@ -104,6 +116,12 @@ body {
   text-align: center;
   font-size: 1.25em;
   margin: 0px;
+}
+
+@media (max-width: 1250px) {
+  .headerSection {
+    font-size: 0.85em;
+  }
 }
 
 .headerSection span {
@@ -121,6 +139,12 @@ body {
   border-bottom: solid 2px #FFF;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+@media (max-width: 1250px) {
+  .headerRoom {
+    font-size: 0.85em;
+  }
 }
 
 .headerRoom span {
